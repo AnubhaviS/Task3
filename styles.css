@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.sign-in a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url('hero-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+.hero button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    padding: 80px 20px 20px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+}
+
+.thumbnails {
+    display: flex;
+    gap: 10px;
+}
+
+.thumbnail {
+    width: 18%;
+    padding-bottom: 25%;
+    background-color: #333;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #141414;
+}
